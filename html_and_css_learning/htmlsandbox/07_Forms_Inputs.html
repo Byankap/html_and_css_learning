@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input</title>
+</head>
+<body>
+    <form action="process.php">
+        <div>
+            <label for="name">Name</label><br>
+            <input type="text"id="name" name="name">
+            <!-- the id is for the funcationality of clicking the name and the box lighting up  -->
+        </div>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="Message">Message</label><br>
+            <textarea name="Message" id="Message" cols="50" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="sex">Sex</label>
+            <select name="Sex" id="sex">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age">
+        </div>
+    </form>
+</body>
+</html>
